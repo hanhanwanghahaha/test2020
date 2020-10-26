@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face
+{
+	font-family:miti;
+	src: url('../font/mi.otf');/*国庆前样式没生效是字体路径的问题*/
+}
+
+
+html,body{
+	font-size: 14px;
+	font-family:miti;
+	
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+.header{
+	height: 40px;
+	background-color: #333333;
+}
+
+.innerwrapper{
+	width: 1226px;
+	margin: 0 auto;
+	height: 40px;
+	position: relative;
+}
+
+.header p{
+	color:#424242;
+	line-height: 40px;
+}
+
+.header p a{
+	color:#b0b0b0;
+}
+
+.rightp{
+	width:300px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: right;
+}
+
+.rightp a{
+	margin: 0 3px;
+}
+
+.searchbox{
+	width: 1226px;
+	height: 100px;
+	
+	margin: 0 auto;
+	position: relative;
+}
+
+.logo{
+	margin-top: 22px;
+}
+
+#nav{
+	width: 690px;
+	height: 50px;
+	position: absolute;
+	left: 234px;
+	top: 22px;
+	font-size: 16px;
+	line-height: 55px;
+}
+#nav a{
+	color:#333333;
+	margin: 0 5px;
+}
+
+#search{
+	width:296px;
+	height:48px;
+	border: solid 1px #E0E0E0;
+	position: absolute;
+	right: 0;
+	top:25px;
+}
+
+.inputkey{
+	width: 233px;
+	height:48px;
+	border: 0;
+	outline: none;
+	font-size: 16px;
+	padding-left:3px;
+}
+
+.btnsearch{
+	width: 48px;
+	height:48px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 0;
+	outline:none;
+	cursor: pointer;
+	font-family:miti;
+	font-size:22px;
+}
+
+/*帮助中心开始*/
+.helpbox{
+	width: 1226px;
+	height: 334px;
+	margin: 0 auto;
+}
+.iconbox{
+	width: 1226px;
+	height:80px;
+	border-bottom: solid 1px #E0E0E0;
+	
+	text-align: center;
+}
+.iconbox a{
+	display: inline-block;
+	width:200px;
+	height: 80px;
+	line-height:80px;
+	text-align: center;
+	font-size: 16px;
+	color: #616161;
+}
+
+#a1:before{
+	content: '\E634';
+}
+#a2:before{
+	content: '\E635';
+}
+#a3:before{
+	content: '\E636';
+}
+#a4:before{
+	content: '\E638';
+}
+#a5:before{
+	content: '\E637';
+}
+
+.helpbox ul{
+	width: 1226px;
+	height:253px;
+	list-style: none;
+}
+.helpbox ul li{
+	float: left;
+	width:165px;
+}
+
+.helpbox ul li p{
+	font-size: 16px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.helpbox ul li a{
+	display: block;
+	line-height: 26px;
+	color: #757575;
+}
+
+.tel{
+	padding: 50px 0;
+}
+/*帮助中心结束*/
+
